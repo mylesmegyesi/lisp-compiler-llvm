@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'lisp-parser', '0.0.1.alpha1'
+  spec.add_runtime_dependency 'ruby-llvm', '~> 3.4.1'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
